@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(221, 210, 210);
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(236, 153, 167);
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration:underline;
+}
+
+.backgroundpic {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-image: url("./programming-art.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 97%;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.aboutme, .work, .contactme {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(221, 210, 210);
+    color: #ffffff;
+    border: solid black;
+}
+
+.work img {
+    max-height: 200px;
+}
+
+.aboutme h2, .work h2, .contactme h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: rgb(236, 153, 167);
+}
+
+.aboutme p, .work p {
+    font-size:20px;
+    color: white;
+    text-align: right;
+}
+
+.contactme div ul {
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.contactme div ul li {
+    display:inline-block;
+    text-decoration: underline;
+    text-align:right;
+}
