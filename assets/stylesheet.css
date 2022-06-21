@@ -45,11 +45,26 @@ a {
 .backgroundpic {
     height: 200px;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     background-image: url("./programming-art.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.headshot {
+    height: 150px;
+    width: 150%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    background-image: url("./headshot.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    position:absolute;
+    border-radius: 45px;
 }
 
 .float-left {
@@ -107,3 +122,13 @@ main {
     text-decoration: underline;
     text-align:right;
 }
+
+div.vertical-line-aboutme{
+    width: 1px; /* Line width */
+    background-color: rgb(236, 153, 167); /* Line color */
+    margin-left: 200px;
+    height: 200px; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+  }
