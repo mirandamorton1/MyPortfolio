@@ -6,34 +6,41 @@
 
 body {
     background-color: rgb(221, 210, 210);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: rgb(236, 153, 167);
     color: #ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header img {
+    border-radius: 45px;
 }
 
 header nav {
+    width: 30%;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
 header nav ul {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
+    text-align: center;
     margin-left: 25px;
 }
 
@@ -44,16 +51,14 @@ a {
 
 .backgroundpic {
     height: 200px;
-    width: 100%;
     margin-bottom: 15px;
     background-image: url("./programming-art.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
-}
+    }
 
-.headshot {
+/* .headshot { 
     height: 150px;
     width: 150%;
     margin-top: 25px;
@@ -63,19 +68,10 @@ a {
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
-    position:absolute;
+    position:relative;
     border-radius: 45px;
-}
+} */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 main {
     width: 97%;
@@ -84,30 +80,37 @@ main {
 
 }
 
-.aboutme, .work, .contactme {
+#aboutme, #work, #contactme {
+    display: flex;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(221, 210, 210);
     color: #ffffff;
     border: solid black;
+}
+
+.portfoliocontent {
+    border-left: 3px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    /* text-align: right;  */
 }
 
 .work img {
     max-height: 200px;
 }
 
-.aboutme h2, .work h2, .contactme h2 {
+#aboutme h2, .work h2, .contactme h2 {
     margin-bottom: 20px;
     font-size: 36px;
     color: rgb(236, 153, 167);
 }
 
-.aboutme p, .work p {
+#aboutme p, .work p {
     font-size:20px;
     color: white;
-    text-align: right;
+    /* text-align: right;  */
 }
 
 .contactme div ul {
@@ -115,20 +118,12 @@ main {
     color: white;
     list-style-type: none;
     margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
 }
 
 .contactme div ul li {
     display:inline-block;
     text-decoration: underline;
-    text-align:right;
+    text-indent: 90px;
 }
-
-div.vertical-line-aboutme{
-    width: 1px; /* Line width */
-    background-color: rgb(236, 153, 167); /* Line color */
-    margin-left: 200px;
-    height: 200px; /* Override in-line if you want specific height. */
-    float: left; /* Causes the line to float to left of content. 
-      You can instead use position:absolute or display:inline-block
-      if this fits better with your design */
-  }
