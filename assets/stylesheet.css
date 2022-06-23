@@ -117,11 +117,18 @@ main {
     /* text-align: right;  */
 }
 
+.contactme div {
+    width:100%;
+    border-left: 3px solid #ffffff;
+}
+
 #contactme div ul {
     font-size: 20px;
     color: white;
     list-style-type: none;
     margin-right: 70px;
+    display:flex;
+    justify-content: space-around;
     /* list-style-type: none;
     text-align: center;  */
 }
@@ -129,7 +136,6 @@ main {
 .contactme div ul li {
     display:inline-block;
     text-decoration: underline;
-    text-indent: 90px;
 } 
 
 .photo{
