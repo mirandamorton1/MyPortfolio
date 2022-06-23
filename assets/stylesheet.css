@@ -134,6 +134,7 @@ main {
 }
 
 .contactme div ul li {
+    cursor:pointer;
     display:inline-block;
     text-decoration: underline;
 } 
