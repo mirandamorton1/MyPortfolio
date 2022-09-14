@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-My portfolio that includes my name, and links to my work and contact information. 
+My very first portfolio that includes my name, and links to my work and contact information. 
   
   ## Table of Contents
   * [Description](#description)
